@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Song+Myung&family=Varela&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../CSS/normalize.css" />
+    <link rel="stylesheet" href="../CSS/style.css" />
+    <link
+      rel="icon"
+      href="../assets/images/ac-logo-white-mini.png"
+      type="image/png"
+    />
+    <title>Angela's Cakes | Login page</title>
+  </head>
+  <body class="full-secondary-color">
+    <header>
+      <nav>
+        <div class="container">
+          <img
+            src="../assets/images/ac-logo-horizontal-brown.png"
+            alt="Angela's Cakes"
+            height="50"
+          />
+          <input type="checkbox" id="sidebar-active" />
+          <label for="sidebar-active" id="overlay"> </label>
+          <label for="sidebar-active" class="open-sidebar-menu">
+            <img src="../assets/icons/menu.svg" alt="" height="35" width="35" />
+          </label>
+          <span class="nav-links">
+            <label for="sidebar-active" class="close-sidebar-menu">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                class="lucide lucide-x"
+              >
+                <path d="M18 6 6 18" />
+                <path d="m6 6 12 12" />
+              </svg>
+            </label>
+            <ul>
+              <li>
+                <a href="http://127.0.0.1:5500">Log in</a>
+              </li>
+              <li>
+                <a href="http://127.0.0.1:5500">Sign up</a>
+              </li>
+            </ul>
+          </span>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section id="login-section">
+        <div class="container login-card">
+          <div>
+            <img src="../assets/images/login-page-cake.png" alt="" />
+          </div>
+          <section>
+            <h2>Create an account</h2>
+            <form action="">
+              <label>
+                Name
+                <input type="text" placeholder="Enter name" />
+              </label>
+              <label>
+                Surname
+                <input type="text" placeholder="Enter surname" />
+              </label>
+              <label>
+                Email
+                <input type="email" placeholder="Enter email" />
+              </label>
+              <label>
+                Password
+                <input type="password" placeholder="Enter password" />
+              </label>
+              <button onclick="submit">Submit</button>
+            </form>
+          </section>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
